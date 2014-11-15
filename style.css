@@ -21,26 +21,26 @@ html, body {
 }
 
 body{
-	font: 130%/1.3 TrebuchetMS,Arial,sans-serif;  /* Default fonts */
+	font: 130%/1.3 TrebuchetMS,Andale Mono,sans-serif;  /* Default fonts */
 	text-align: left; /* Alignment of the text */
-	color: black; /* Main text color */
+	color: white; /* Main text color */
 	background: white; /* Main text background color */
 	padding-bottom: 20px; /* You can set padding or margin for one side of an element at a time */
 }
 
 a {                  /* A stands for link, so this section is setting the default characteristics of links. */
-	color: #C41E3A;
+	color: #4547FF;
 	text-decoration: none;
 }
 
 h1 {		     /* This styles the header at the top of the page */
 	font: bold 2.1em 'Source Sans Pro',Arial, Sans-Serif;
-	text-align: left;
+	text-align: center;
 	color: white;
 }
 
 h2 {		     /* This styles the headers within the page */
-	font: bold 1.1em 'Source Sans Pro',Arial, Sans-Serif;
+	font: bold 1.1em 'Source Sans Pro',Papyrus, Sans-Serif;
 	padding: 0;
 	margin: 0;
 }
@@ -50,16 +50,16 @@ h2 {		     /* This styles the headers within the page */
 div.section {
 	padding: 1em;
 	margin-bottom: 0;
-	text-align: justify;
+	text-align: center;
 
 }
 
 /* If we want the divs with ids plan and more to look the same, we can put them together */
 #plan, #more {
-	background:#000080;
+	background:#92B0E7;
 	color: white;
-	font: 'Source Sans Pro',Arial, Sans-Serif;
-	background-image: none;  /* replace none with url('image-url') to set a background image  */
+	font: Andale Mono,Andale Mono, Andale Mono;
+	background-image: none /* replace none with url('image-url') to set a background image  */
 }
 
 /* You can alter the links within a div with the following syntax */
@@ -70,19 +70,20 @@ div.section {
 /* This alters the appearance of the div with id="signup". */
 #poem {
 	height: 110px;
-	background: white;
+	background: black;
 	text-align: center;
 }
 
 /* This alters the appearance of the div with id="whoweare" */
 #whoweare {
+	font: Times New Roman;	
 	background: white;
-	color: black; 
+	color: green; 
 }
 
 /* This alters the appearance of the div with id="minileft", the div containing the images */
 .minileft {
-	float: left;
+	float: center;
 	height: 100%;
 	margin-bottom:1.5em;
 	margin-right: 1em;
